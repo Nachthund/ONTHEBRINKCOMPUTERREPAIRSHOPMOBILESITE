@@ -1,0 +1,637 @@
+/* styles.css */
+/* Global styles that apply to all screen sizes */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url('Wumpa.jpg'); /* Make sure to add the file extension (e.g., .jpg) */
+  background-size: cover; /* Optional: sets the background image to cover the entire element */
+  background-position: center; /* Optional: sets the background image to be centered */
+  padding: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  background-image: url('LOTRWUMPA.jpg'); /* Make sure to add the file extension (e.g., .jpg) */
+  background-size: cover; /* Optional: sets the background image to cover the entire element */
+  background-position: center; /* Optional: sets the background image to be centered */
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.footer {
+  background-image: url('Wumpa.jpg');
+  padding: 20px;
+  text-align: center;
+}
+
+/* Desktop styles */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  .header {
+    padding: 30px;
+  }
+  .nav {
+    font-size: 18px;
+  }
+  .main-content {
+    padding: 30px;
+  }
+  .footer {
+    padding: 20px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 768px;
+    margin: 20px auto;
+  }
+  .header {
+    padding: 20px;
+  }
+  .nav {
+    font-size: 16px;
+  }
+  .main-content {
+    padding: 20px;
+  }
+  .footer {
+    padding: 15px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+  .header {
+    padding: 15px;
+  }
+  .nav {
+    font-size: 14px;
+  }
+  .main-content {
+    padding: 15px;
+  }
+  .footer {
+    padding: 10px;
+  }
+}
+
+/* Mobile landscape styles */
+@media (max-width: 767px) and (orientation: landscape) {
+  .header {
+    padding: 10px;
+  }
+  .nav {
+    font-size: 12px;
+  }
+  .main-content {
+    padding: 10px;
+  }
+  .footer {
+    padding: 5px;
+  }
+}
+
+/* Laptop styles (13-15 inches) */
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+  .container {
+
+    max-width: 1024px;
+
+    margin: 30px auto;
+
+  }
+
+  .header {
+
+    padding: 25px;
+
+  }
+
+  .nav {
+
+    font-size: 16px;
+
+  }
+
+  .main-content {
+
+    padding: 25px;
+
+  }
+
+  .footer {
+
+    padding: 15px;
+
+  }
+
+}
+
+
+/* Laptop styles (15-17 inches) */
+
+@media (min-width: 1367px) and (max-width: 1600px) {
+
+  .container {
+
+    max-width: 1366px;
+
+    margin: 35px auto;
+
+  }
+
+  .header {
+
+    padding: 30px;
+
+  }
+
+  .nav {
+
+    font-size: 18px;
+
+  }
+
+  .main-content {
+
+    padding: 30px;
+
+  }
+
+  .footer {
+
+    padding: 20px;
+
+  }
+
+}
+
+
+/* Laptop styles (17 inches and above) */
+
+@media (min-width: 1601px) {
+
+  .container {
+
+    max-width: 1600px;
+
+    margin: 40px auto;
+
+  }
+
+  .header {
+
+    padding: 35px;
+
+  }
+
+  .nav {
+
+    font-size: 20px;
+
+  }
+
+  .main-content {
+
+    padding: 35px;
+
+  }
+
+  .footer {
+
+    padding: 25px;
+
+  }
+
+}
+
+/* iPhone 4, 4S styles */
+
+@media (max-width: 320px) {
+
+  .header {
+
+    padding: 10px;
+
+  }
+
+  .nav {
+
+    font-size: 12px;
+
+  }
+
+  .main-content {
+
+    padding: 10px;
+
+  }
+
+  .footer {
+
+    padding: 8px;
+
+  }
+
+}
+
+
+/* iPhone 5, 5C, 5S styles */
+
+@media (max-width: 320px) {
+
+  .header {
+
+    padding: 10px;
+
+  }
+
+  .nav {
+
+    font-size: 12px;
+
+  }
+
+  .main-content {
+
+    padding: 10px;
+
+  }
+
+  .footer {
+
+    padding: 8px;
+
+  }
+
+}
+
+
+/* iPhone 6, 6S styles */
+
+@media (max-width: 375px) {
+
+  .header {
+
+    padding: 12px;
+
+  }
+
+  .nav {
+
+    font-size: 12px;
+
+  }
+
+  .main-content {
+
+    padding: 12px;
+
+  }
+
+  .footer {
+
+    padding: 8px;
+
+  }
+
+}
+
+
+/* iPhone 6 Plus, 6S Plus styles */
+
+@media (max-width: 414px) {
+
+  .header {
+
+    padding: 14px;
+
+  }
+
+  .nav {
+
+    font-size: 13px;
+
+  }
+
+  .main-content {
+
+    padding: 14px;
+
+  }
+
+  .footer {
+
+    padding: 10px;
+
+  }
+
+}
+
+
+/* iPhone 7, 7 Plus styles */
+
+@media (max-width: 375px) {
+
+  .header {
+
+    padding: 12px;
+
+  }
+
+  .nav {
+
+    font-size: 12px;
+
+  }
+
+  .main-content {
+
+    padding: 12px;
+
+  }
+
+  .footer {
+
+    padding: 8px;
+
+  }
+
+}
+
+
+/* iPhone 8, 8 Plus styles */
+
+@media (max-width: 375px) {
+
+  .header {
+
+    padding: 12px;
+
+  }
+
+  .nav {
+
+    font-size: 12px;
+
+  }
+
+  .main-content {
+
+    padding: 12px;
+
+  }
+
+  .footer {
+
+    padding: 8px;
+
+  }
+
+}
+
+
+/* iPhone X styles */
+
+@media (max-width: 375px) {
+
+  .header {
+
+    padding: 12px;
+
+  }
+
+  .nav {
+
+    font-size: 12px;
+
+  }
+
+  .main-content {
+
+    padding: 12px;
+
+  }
+
+  .footer {
+
+    padding: 8px;
+
+  }
+
+}
+
+
+/* iPhone XR styles */
+
+@media (max-width: 414px) {
+
+  .header {
+
+    padding: 14px;
+
+  }
+
+  .nav {
+
+    font-size: 13px;
+
+  }
+
+  .main-content {
+
+    padding: 14px;
+
+  }
+
+  .footer {
+
+    padding: 10px;
+
+  }
+
+}
+
+
+/* iPhone XS, XS Max styles */
+
+@media (max-width: 414px) {
+
+  .header {
+
+    padding: 14px;
+
+  }
+
+  .nav {
+
+    font-size: 13px;
+
+  }
+
+  .main-content {
+
+    padding: 14px;
+
+  }
+
+  .footer {
+
+    padding: 10px;
+
+  }
+
+}
+
+
+/* iPhone 11, 11 Pro styles */
+
+@media (max-width: 414px) {
+
+  .header {
+
+    padding: 14px;
+
+  }
+
+  .nav {
+
+    font-size: 13px;
+
+  }
+
+  .main-content {
+
+    padding: 14px;
+
+  }
+
+  .footer {
+
+    padding: 10px;
+
+  }
+
+}
+
+
+/* iPhone 11 Pro Max styles */
+
+@media (max-width: 428px) {
+
+  .header {
+
+    padding: 16px;
+
+  }
+
+  .nav {
+
+    font-size: 14px;
+
+  }
+
+  .main-content {
+
+    padding: 16px;
+
+  }
+
+  .footer {
+
+    padding: 12px;
+
+  }
+
+}
+
+
+/* Samsung Galaxy S series styles */
+
+@media (max-width: 360px) {
+
+  .header {
+
+    padding: 12px;
+
+  }
+
+  .nav {
+
+    font-size: 12px;
+
+  }
+
+  .main-content {
+
+    padding: 12px;
+
+  }
+
+  .footer {
+
+    padding: 8px;
+
+  }
+
+}
+
+
+/* Samsung Galaxy Note series styles */
+
+@media (max-width: 400px) {
+
+ .header {
+
+    padding: 14px;
+
+  }
+
+ .nav {
+
+    font-size: 13px;
+
+  }
+
+ .main-content {
+
+    padding: 14px;
+
+  }
+
+ .footer {
+
+    padding: 10px;
+
+  }
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bradley+Hand&display=swap');
+    h1{
+      font-color:silver;
+      font-family: 'Bradley Hand', cursive;
+      text-shadow: 2px 0px 4px #000000, 4PX 0PX 6PX #000000;
+      font-size:xx-large;
+      color:#F35212;
+      font-weight: bolder;
+    }
